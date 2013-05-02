@@ -1,0 +1,23 @@
+{
+    "name": "Liberar acesso restrito - Notícias",
+    "version": "1.3",
+	"icons": { 
+		"16" : "16.jpg",
+		"48" : "48.jpg",
+		"128" : "128.jpg"
+		},
+    "description": "Remoção das mensagens de Assinatura, que impede a visualização de noticias na Gazeta do Povo e Estadão.",
+    "permissions": ["tabs", "http://*/*"],
+    "manifest_version": 2,
+    "content_scripts" : [
+        {
+            "matches" : [ "http://www.gazetadopovo.com.br/*"],
+            "js" : ["subscription-gazeta-script.js"]
+        },
+        {
+            "matches" : [ "http://*.estadao.com.br/*"],
+            "js" : ["subscription-estadao-script.js"]
+        }
+    ],
+    "web_accessible_resources": ["*.js"]
+}
