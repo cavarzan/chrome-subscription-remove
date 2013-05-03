@@ -1,12 +1,12 @@
 {
-    "name": "Liberar acesso restrito - Notícias",
-    "version": "1.3",
+    "name": "Visualizador de notícias em portais.",
+    "version": "1.10",
 	"icons": { 
 		"16" : "16.jpg",
 		"48" : "48.jpg",
 		"128" : "128.jpg"
 		},
-    "description": "Remoção das mensagens de Assinatura, que impede a visualização de noticias na Gazeta do Povo e Estadão.",
+    "description": "Visualização de noticias em alguns portais.",
     "permissions": ["tabs", "http://*/*"],
     "manifest_version": 2,
     "content_scripts" : [
