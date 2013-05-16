@@ -1,11 +1,16 @@
 {
     "name": "Visualizador de notícias em portais.",
-    "version": "1.10",
+    "version": "1.11",
 	"icons": { 
 		"16" : "16.jpg",
 		"48" : "48.jpg",
 		"128" : "128.jpg"
 		},
+		
+	"background": {
+		"scripts": ["folha.js"],
+		"persistent": true
+	},
     "description": "Visualização de noticias em alguns portais.",
     "permissions": ["tabs", "http://*/*"],
     "manifest_version": 2,
@@ -19,5 +24,10 @@
             "js" : ["subscription-estadao-script.js"]
         }
     ],
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://static.folha.uol.com.br/paywall/js/"
+	],
     "web_accessible_resources": ["*.js"]
 }

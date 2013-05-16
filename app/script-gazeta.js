@@ -1,15 +1,8 @@
 setInterval(function () {
-    try {
-		fecha_modal();
-	} catch (err) {
-		console.log(err);
-	}
-} , 1000);
+    fecha_modal();
+} , 2000);
+
 
 setInterval(function () {
-    try {
-		fecha_modal();
-	} catch (err) {
-		console.log(err);
-	}
-} , 2000);
+    fecha_modal();
+} , 4000);
