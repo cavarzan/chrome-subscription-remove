@@ -1,17 +1,17 @@
 {
-    "name": "Visualizador de notícias em portais.",
-    "version": "1.12",
+    "name": "Eu quero ler!",
+    "version": "1.3",
 	"icons": { 
-		"16" : "16.jpg",
-		"48" : "48.jpg",
-		"128" : "128.jpg"
+		"16" : "16.png",
+		"48" : "48.png",
+		"128" : "128.png"
 		},
 		
 	"background": {
 		"scripts": ["background.js"],
 		"persistent": true
 	},
-    "description": "Visualização de noticias em alguns portais.",
+    "description": "Remoção das mensagens de assinatura em artigos de portais de notícias.",
     "permissions": ["tabs", "http://*/*"],
     "manifest_version": 2,
     "content_scripts" : [
@@ -29,7 +29,10 @@
 		"webRequestBlocking",
 		"*://static.folha.uol.com.br/paywall/js/",
 		"*://gazetadopovo.com.br/connect/js/",
-		"*://estadao.com.br/paywall/"
+		"*://estadao.com.br/paywall/",
+		"*://paywall.folha.uol.com.br/*",
+		"*://oglobo.globo.com/*/paywall/*",
+		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*"
 	],
     "web_accessible_resources": ["*.js", "*.css"]
 }

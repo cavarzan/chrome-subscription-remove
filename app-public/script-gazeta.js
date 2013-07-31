@@ -1,4 +1,3 @@
-// se o bloqueio de URL não funcionar... vai na mão
 setInterval(function () {
     fecha_modal();
 } , 2000);
