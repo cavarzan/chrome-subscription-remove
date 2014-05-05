@@ -11,6 +11,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 		"*://www.estadao.com.br/paywall/*", 
 		"*://oglobo.globo.com/*/paywall/*",
 		"*://diariocatarinense.clicrbs.com.br/css/modal*",
+		"*://diariocatarinense.clicrbs.com.br/it/js/UtilJornaisClicRbs.js",
 		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*"]
 	},
     ["blocking"]
