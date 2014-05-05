@@ -30,6 +30,7 @@
 		"*://static.folha.uol.com.br/paywall/js/",
 		"*://gazetadopovo.com.br/connect/js/",
 		"*://estadao.com.br/paywall/",
+		"*://diariocatarinense.clicrbs.com.br/css/modal*",
 		"*://paywall.folha.uol.com.br/*",
 		"*://oglobo.globo.com/*/paywall/*",
 		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*"
