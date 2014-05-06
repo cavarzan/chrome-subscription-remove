@@ -10,9 +10,12 @@ chrome.webRequest.onBeforeRequest.addListener(
 		"*://gazetadopovo.com.br/connect/*", 
 		"*://www.estadao.com.br/paywall/*", 
 		"*://oglobo.globo.com/*/paywall/*",
+		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*", 
+		"*://gazetadopovo.com.br/assinaturas/*", 
+		"*://gazetadopovo.com.br/assinaturas/*", 
 		"*://diariocatarinense.clicrbs.com.br/css/modal*",
 		"*://diariocatarinense.clicrbs.com.br/it/js/UtilJornaisClicRbs.js",
-		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*"]
+		"*://www.gazetadopovo.com.br/assinaturas/*"]
 	},
     ["blocking"]
 );
