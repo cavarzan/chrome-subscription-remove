@@ -33,6 +33,7 @@
 		"*://www.gazetadopovo.com.br/assinaturas/*",
 		"*://estadao.com.br/paywall/*",
 		"*://paywall.estadao.com.br/*",
+		"*://www.paywall.estadao.com.br/*",
 		"*://diariocatarinense.clicrbs.com.br/*",
 		"*://paywall.folha.uol.com.br/*",
 		"*://oglobo.globo.com/*/paywall/*",
