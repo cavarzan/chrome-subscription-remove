@@ -9,6 +9,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 		"http://paywall.folha.uol.com.br/*", 
 		"*://gazetadopovo.com.br/connect/*", 
 		"*://www.estadao.com.br/paywall/*", 
+		"*://www.paywall.estadao.com.br/*", 
 		"*://oglobo.globo.com/*/paywall/*",
 		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*", 
 		"*://gazetadopovo.com.br/assinaturas/*", 
