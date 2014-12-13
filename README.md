@@ -1,4 +1,6 @@
 chrome-subscription-remove
 ==========================
 
-Just a public repo for a personal chrome plugin.
+Se quiser ajudar, esse é o app: 
+https://chrome.google.com/webstore/detail/eu-quero-ler/lcjmldfdiaanimmclfabndiaefjnpnmc?hl=pt-BR
+
