@@ -1,6 +1,6 @@
 {
     "name": "Eu quero ler!",
-    "version": "1.6",
+    "version": "1.7",
 	"icons": { 
 		"16" : "16.png",
 		"48" : "48.png",
@@ -8,8 +8,7 @@
 		},
 		
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": true
+		"scripts": ["background.js"]
 	},
     "description": "Remoção das mensagens de assinatura em artigos de portais de notícias.",
     "permissions": ["tabs", "http://*/*"],
@@ -32,7 +31,11 @@
 		"*://gazetadopovo.com.br/connect/js/",
 		"*://www.gazetadopovo.com.br/assinaturas/*",
 		"*://estadao.com.br/paywall/*",
+		"*://*.estadao.com.br/paywall/*",
+		"*://*.paywall.estadao.com.br/*", 
+		"*://*.estadao.com.br/paywall/*.js",
 		"*://paywall.estadao.com.br/*",
+		"*://acesso.estadao.com.br/api/rest/acesso-paywall",
 		"*://www.paywall.estadao.com.br/*",
 		"*://diariocatarinense.clicrbs.com.br/*",
 		"*://paywall.folha.uol.com.br/*",
