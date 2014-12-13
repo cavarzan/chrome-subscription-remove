@@ -12,6 +12,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 		"*://www.paywall.estadao.com.br/*", 
 		"*://oglobo.globo.com/*/paywall/*",
 		"*://zerohora.clicrbs.com.br/jornal/jsp/paywall*", 
+		"*://www.estadao.com.br/paywall/pw-functions.js"
 		"*://gazetadopovo.com.br/assinaturas/*", 
 		"*://gazetadopovo.com.br/assinaturas/*", 
 		"*://diariocatarinense.clicrbs.com.br/css/modal*",
